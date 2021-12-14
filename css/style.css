@@ -1,0 +1,392 @@
+/* #153A4A- navy blue
+	#902323- red
+	#4B849D- light blue
+	#F2F2F2- off white
+	#B72020- bright red */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	font-family: 'Libre Franklin', sans-serif; }
+
+body {
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+img { 
+width: 130px;
+ }
+
+.viewport {
+	min-height: 100vh;
+	min-width: 100%;
+	border: 5px solid black;
+}
+
+header {
+	height: 100px;
+	background-color: #153A4A;
+	color: #fff;
+	text-align: left;
+	padding-top: 0;
+}
+
+/* Navigation */
+
+.topnav {
+  overflow: hidden;
+  float: right;
+  padding: 38px; }
+
+.topnav a {
+	position: relative;
+  	color: white; 
+ 	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;}
+
+.topnav a.icon {
+  float: right; }
+
+.topnav a:hover {
+  color: #4B849D; }
+
+/* Header */
+
+.hero {
+	background-image: url("../images/hero4.jpg");
+	opacity: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	width: 100%;
+	height: 80vh;
+	overflow: hidden;
+}
+
+h1 { font-size: 3.5rem;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #ffff;
+	font-style: normal;
+	padding: 10px;}
+
+.hero2 {
+	background-image: url("images/../Quote.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	width: 100%;
+	height: 60vh;
+} 
+
+
+.container h4 { color: #66615a; /* brown */
+	text-decoration: none;
+	font-weight: bold;
+	margin: 8px;
+	padding: 20px;	 }
+
+.title {
+	margin-bottom: 6vh;
+	padding-top: 20vh;
+}
+
+.hero h1 {
+	font-size: 3.5rem;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #ffff;
+	font-style: normal;
+	padding: 10px;
+}
+
+.hero h1 span{
+	font-family: 'Libre Franklin', sans-serif; 
+	font-style: bold;
+	color: #ffff;
+	}
+
+.ourworkhero h1 span{
+	font-style: bold;
+	color: #ffff;}
+
+.ourworkhero h1 {
+	font-size: 3.5rem;
+	color: #ffff;
+	font-style: bold;
+	padding: 10px;
+	margin-left: 70px;
+}
+
+.hero2 h1 {  
+	font-size: 2rem;
+	color: white;
+	}
+
+.card {
+	display: block;
+	min-height: 60px;
+	width: 300px;
+	padding: 15px;
+	position: absolute;
+	top: 50vh;
+	left: 29vh;
+	outline: none;
+	border:none; }
+
+.card p {
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.button {
+	display: inline-block;
+	font-size: 15px; 
+	border: 9px solid #902323;
+	border-radius: 8px;
+	padding: 10px 20px;
+	margin-left: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	background-color: #902323;
+	color: #fff; 
+	font-weight: bold;
+}
+
+.button a:hover {
+  	color: #4B849D; }
+
+div.values img {
+  width: 100%;
+  height: auto;}
+
+div.values:hover {
+  border: 3px solid #902323 } 
+
+
+/* Value Sections */
+
+        
+.value1 { position: absolute;
+  		font-size: 40px;
+  		color: white;
+  		font-weight: bold;}
+
+/* Body Sections */
+
+.container h3 { font-size: 18px;
+		padding: 30px; }
+
+#work {
+	width: 100%;
+	background-image: url("../images/ourwork.jpg");
+	background-size: cover;
+	min-height: 400px;
+	padding-bottom: 70px;
+}
+
+.ourwork { 
+	background-image: url("../images/ourwork.jpg");
+	background-position: right;
+	padding: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #F2F2F2;
+	} 
+
+.ourwork h1 { 
+	font-size: 18px;
+	padding: 30px;
+	font-weight: bold;
+	background-color: #F2F2F2;}
+
+#team {
+	width: 100%;
+	background-image: url("../images/ourteam.jpg");
+	background-size: cover;
+	min-height: 400px;}
+
+.ourteam { 
+	background-image: url("../images/ourteam.jpg");
+	background-position: right;
+	padding: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #F2F2F2;
+	} 
+
+.ourteam h1 { 
+	font-size: 18px;
+	padding: 30px;
+	font-weight: bold; }
+
+#quote {
+	width: 100%;
+	background-image: url("../images/quote.jpg");
+	background-size: cover;
+	min-height: 400px;}
+
+.quote{ 
+	background-image: url("../images/quote.jpg");
+	background-position: right;
+	position: bottom;
+	padding: 70px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #F2F2F2;
+	} 
+
+#quote h5 { 
+	font-size: 35px;
+	color: white;
+	margin: 35px;
+	padding: 30px;
+	float: left;}
+
+h3 { color: black;
+ 	font-family: raleway; 
+ 	font-style: thin;
+ 	font-size: 18px;}
+
+span { color: #B72020;
+	font-weight: bold;} 
+
+.contact {
+	text-align: center;
+	overflow: hidden;
+	display: block;}
+
+
+.row h1 { color: #902323;
+		padding: 30px;
+		font-size: 40px;
+		text-align: center;
+		font-weight: bold; } 
+
+.row h6 { color: #153A4A;
+		font-size: 35px;
+		padding: 30px;
+		text-align: center;
+		font-weight: bold; }
+
+.row h3 { color: black;
+		font-family: helvetica-light;
+		text-align: center;	}
+
+.container h5 { text-align: center; }
+
+
+
+/* INTERIOR STYLING */
+
+.ourworkhero {
+	background-image: url("../images/hero2.jpg");
+	opacity: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 80vh;
+	position: relative; }
+
+
+div.gallery:hover {
+  border: 3px solid #902323;}
+
+div.gallery img {
+  width: 100%;
+  height: auto;}
+
+div.desc {
+  padding: 15px;
+  text-align: center;}
+
+* { box-sizing: border-box;}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  text-align: left;
+  width: 24.99999%; 
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  .responsive, .topnav, .ourwork h3 {
+    width: 49.99999%;
+    margin: 6px 0;}
+
+
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 100%;}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+
+/* FOOTER STYLING */
+footer {
+	background-color: #F2F2F2; /* off white */
+	padding-top: 25px;
+	font-size: 90%; 
+	float: left;}
+
+footer ul {
+	list-style: none;
+	margin: 0; }
+
+footer li {
+	margin-bottom:; 
+	float: right; 
+ }
+ 
+footer li a {
+	color: #66615a; /* brown */
+	text-decoration: none;
+	font-weight: bold;
+	margin: 15px;
+	float: left;
+	margin: 10px;
+	position: center;
+ 	padding: 14px 16px;
+ 	font-size: 17px;
+}
+
+footer .bright li a {
+	color: #153A4A; /* navy blue */
+}
+
+footer li a:hover {
+	color: #4B849D; /* blue grey */
+}
+
+.copyright {
+	margin-top: 50px;
+	margin-bottom: 115px;
+	font-size: 85%;
+}
+
+.copyright a {
+ 	font-weight: normal;
+ 	text-transform: none; }
+
+
+
+
+
+
+
+
